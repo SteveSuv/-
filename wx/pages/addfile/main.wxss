@@ -1,0 +1,73 @@
+.setting{
+    margin: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .logo{
+    width: 80px;
+    height:80px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    }
+    .name{
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 20px;
+    }
+    .content{
+        font-size: 14px;
+        color: grey;
+        margin-bottom: 20px;
+    }
+
+    
+.fab{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.addfile{
+    position: fixed;
+    bottom: 125px;
+    font-size: 16px;
+    width: 40%;
+    border: 1px solid #00B26A;
+    background-color: #00B26A;
+    color: #fff;
+}
+.upload{
+    position: fixed;
+    bottom: 70px;
+    font-size: 16px;
+    width: 40%;
+    border: 1px solid #00B26A;
+    background-color: #fff;
+    color: #00B26A;
+}
+.filelist{
+    margin-bottom: 200px;
+}
+
+.filetext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.filenum{
+color:grey ;
+font-size: 14px;
+}
+
+
+.inputmodal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    margin-top: 30%;
+}

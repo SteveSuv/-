@@ -1,0 +1,26 @@
+.fab{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.addcourse{
+    position: fixed;
+    bottom: 30px;
+    width: 40%;
+    border: 1px solid #00B26A;
+    background-color: #00B26A;
+    border-radius: 100px;
+    color: #fff;
+}
+
+
+.inputmodal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    margin-top: 30%;
+}
+

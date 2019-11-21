@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="https://files.filesome.top/public/logo.png" type="image/x-icon" />
+    <title>复习资料库</title>
+    <style>
+        .imgdiv {
+            width: 100%;
+            height: 100%;
+            margin-top: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .img {
+            width: 200px;
+            height: auto;
+        }
+
+        .btndiv {
+            width: 100%;
+            height: 100%;
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn {
+            width: 120px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            border-radius: 100px;
+            background-color: #00B26A;
+            color: #fff;
+        }
+        .btn:hover{
+            cursor: pointer;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="imgdiv">
+        <image class="img" src='https://files.filesome.top/public/minicode.jpg' />
+    </div>
+    <div class="btndiv">
+        <div class="btn">加入群聊</div>
+    </div>
+
+    <script>
+        var minicode = 'https://files.filesome.top/public/minicode.jpg'
+        var qqcode = 'https://files.filesome.top/public/qqgroup.jpg'
+        var img = document.querySelector('.img')
+        var btn = document.querySelector('.btn')
+        btn.onclick = () => {
+            if (btn.innerHTML === '加入群聊') {
+                img.src = qqcode
+                btn.innerHTML = '小程序码'
+            }
+            else {
+                img.src = minicode
+                btn.innerHTML = '加入群聊'
+            }
+        }
+    </script>
+</body>
+
+</html>

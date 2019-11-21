@@ -1,0 +1,6 @@
+<view class="nodata">
+    <text class="nodata_title" >没有任何内容？</text>
+    <text class="nodata_sub" bind:tap="solve1">1.学校信息填写错误</text>
+    <text class="nodata_sub" bind:tap="solve2">2.没有任何内容发布</text>
+    <text class="nodata_sub" bind:tap="solve3">3.网络或服务器故障</text>
+</view>

@@ -1,0 +1,8 @@
+{
+    "enablePullDownRefresh": true,
+    "navigationBarTitleText": "上传文件",
+    "usingComponents": {
+        "uploadfile":"/components/uploadfile/main",
+        "inputmodal":"/components/inputmodal/main"
+    }
+}

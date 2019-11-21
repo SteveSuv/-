@@ -1,0 +1,46 @@
+.file{
+    margin: 80px 30px 0 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.fileimg {
+    height: 70px;
+    width:70px;
+    margin-bottom:15px;
+  }
+.filename{
+    font-size: 15px;
+    color: #333;
+    margin-bottom:5px;
+
+}
+.filesize{
+    font-size: 13px;
+    color: grey;
+}
+
+.fab{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.readfile{
+    position: fixed;
+    bottom: 125px;
+    font-size: 16px;
+    width: 40%;
+    border: 1px solid #00B26A;
+    background-color: #00B26A;
+    color: #fff;
+}
+.more{
+    position: fixed;
+    bottom: 70px;
+    font-size: 16px;
+    width: 40%;
+    border: 1px solid #00B26A;
+    background-color: #fff;
+    color: #00B26A;
+}

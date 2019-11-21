@@ -1,0 +1,9 @@
+{
+    "enablePullDownRefresh": true,
+    "navigationBarTitleText": "资料",
+    "usingComponents": {
+        "search": "/components/search/main",
+        "filecard": "/components/filecard/main",
+        "nodata": "/components/nodata/main"
+    }
+}

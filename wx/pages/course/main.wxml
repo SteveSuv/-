@@ -1,0 +1,18 @@
+<view class="mx2 forfab">
+  <view class="mb2"></view>
+  <view class="mb2">
+    <search placeholder='请输入课程关键词' bind:input='onsearchinput'></search>
+  </view>
+  <view wx:if="{{courselist.length!==0}}" wx:for="{{courselist}}" wx:key="{{index}}">
+    <coursecard info='{{courselist[index]}}'></coursecard>
+  </view>
+  <view wx:if="{{courselist.length==0}}">
+    <nodata></nodata>
+  </view>
+  <view class="fab">
+    <button class="addcourse" bind:tap="addcourse">创建课程</button>
+  </view>
+  <inputmodal wx:if="{{schoolinput}}" class="inputmodal" placeholder="请搜索你的大学" bind:cancel="onschoolcancel" bind:confirm="onschoolconfirm" bind:input="onschoolinput"></inputmodal>
+  <inputmodal wx:if="{{courseinput}}" class="inputmodal" placeholder="请输入课程全名" bind:cancel="oncoursecancel" bind:confirm="oncourseconfirm" bind:input="oncourseinput"></inputmodal>
+  <navigator hidden open-type="exit" target="miniProgram">退出</navigator>
+</view>

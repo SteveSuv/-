@@ -1,0 +1,50 @@
+.filecard {
+  background-color: white;
+  padding: 10px 0;
+  margin: 0 10px;
+  border-bottom: 1px solid #fafafa;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  margin-right: 15px;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+}
+
+.right {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 7px;
+}
+
+.auinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  font-size: 13px;
+  color: grey;
+}
+
+.auname {
+  margin-right: 5px;
+}
+
+.aunamecolor {
+  margin-right: 5px;
+  color: #00B26A;
+}

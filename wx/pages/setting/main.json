@@ -1,0 +1,7 @@
+{
+    "enablePullDownRefresh": true,
+    "navigationBarTitleText": "设置",
+    "usingComponents": {
+        "inputmodal": "/components/inputmodal/main"
+    }
+}

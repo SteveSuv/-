@@ -1,0 +1,10 @@
+{
+    "enablePullDownRefresh": true,
+    "navigationBarTitleText": "请先选择学校",
+    "usingComponents": {
+        "search": "/components/search/main",
+        "coursecard": "/components/coursecard/main",
+        "nodata": "/components/nodata/main",
+        "inputmodal": "/components/inputmodal/main"
+    }
+}

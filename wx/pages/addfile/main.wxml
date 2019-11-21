@@ -1,0 +1,15 @@
+<view class="mx2">
+  <view class="mb2"></view>
+  <view class="filelist">
+    <!-- //文件列表以及改文件名操作 -->
+    <view class="filetext">
+      <text class="filenum">已选择{{filelists.length}}个文件</text>
+    </view>
+    <uploadfile fileinfo='{{filelists[index]}}' wx:for="{{filelists}}" wx:key="{{index}}" data-index='{{index}}' bind:rename="changename"></uploadfile>
+  </view>
+  <view class="fab">
+    <button class="addfile" bind:tap="addfile">添加文件</button>
+    <button class="upload" bind:tap="upload">开始上传</button>
+  </view>
+  <inputmodal wx:if="{{nameinput}}" class="inputmodal" value='{{newname}}' placeholder="请输入新的文件名" bind:cancel="onnamecancel" bind:confirm="onnameconfirm" bind:input="onnameinput"></inputmodal>
+</view>

@@ -1,0 +1,12 @@
+<view class="coursecard" bind:tap="go">
+    <view class="left">
+        <image class="img" src="{{courseimg}}" />
+    </view>
+    <view class="right">
+        <view class="title">{{info.course_name}}</view>
+        <view class="auinfo">
+            <view class="auname">{{info.course_filenum}}个文件</view>
+            <view class="auname">创建于{{info.showtime}}</view>
+        </view>
+    </view>
+</view>

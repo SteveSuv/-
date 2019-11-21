@@ -1,0 +1,3 @@
+<view class="search ">
+    <input bindinput="onInput"  confirm-type='search'  placeholder="{{placeholder}}" placeholder-class="placeholder" class="searchbox" value="{{value}}"/>
+</view>

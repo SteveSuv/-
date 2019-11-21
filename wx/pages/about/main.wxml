@@ -1,0 +1,13 @@
+<view class="mx2">
+  <view class="mb2"></view>
+  <view class="about">
+    <image src="/static/imgs/logo.png" class="logo" />
+    <text class="name">复习资料库</text>
+    <text class="content">
+      这是一个为大学生们提供分享和下载复习考试资料功能的小程序应用。此应用完全免费，仅靠部分广告和打赏维持开发维护和服务器支出，请各位多多支持分享。如在使用过程中遇到问题请点击下方按钮反馈。
+    </text>
+  </view>
+  <view class="fab">
+    <button class="club" open-type='feedback'>反馈问题</button>
+  </view>
+</view>

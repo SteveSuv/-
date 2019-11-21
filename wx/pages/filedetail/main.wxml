@@ -1,0 +1,12 @@
+<view class="mx2">
+  <view class="mb2"></view>
+  <view class="mb2 file">
+    <image class="fileimg" src="{{fileimg}}" />
+    <text class="filename">{{file_detail.file_name}}</text>
+    <text class="filesize">{{filesize}}</text>
+  </view>
+  <view class="fab">
+    <button  class="readfile" open-type="share" data-id='{{id}}' data-fileimg='{{fileimg}}'>分享资料</button>
+    <button  class="more" bind:tap="more">更多操作</button>
+  </view>
+</view>

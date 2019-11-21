@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/course/main",
+    "pages/file/main",
+    "pages/about/main",
+    "pages/setting/main",
+    "pages/addfile/main",
+    "pages/filedetail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "APP",
+    "backgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "downloadFile": 20000
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于确认你的所在城市"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

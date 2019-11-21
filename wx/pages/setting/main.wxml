@@ -1,0 +1,16 @@
+<view class="mx2">
+  <view class="mb2"></view>
+  <view class="setting">
+    <image src="{{avatar}}" class="logo" />
+    <text class="name">{{uname==""?'请先登录':uname}}</text>
+    <text class="content" hidden="{{!islogin}}">{{schoolName}}</text>
+  </view>
+  <view class="fab" hidden="{{!islogin}}">
+    <button class="change" bind:tap="changeSchool">更改学校</button>
+    <button class="clearall" bind:tap="clearall">清空缓存</button>
+  </view>
+  <view class="fab" hidden="{{islogin}}">
+    <button class="loginbtn" open-type="getUserInfo" bindgetuserinfo="login">授权登录</button>
+  </view>
+   <inputmodal wx:if="{{schoolinput}}"  class="inputmodal" placeholder="请输入你的大学全称" bind:cancel="onschoolcancel" bind:confirm="onschoolconfirm" bind:input="onschoolinput"></inputmodal>
+</view>

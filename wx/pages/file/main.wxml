@@ -1,0 +1,15 @@
+<view class="mx2 forfab">
+  <view class="mb2"></view>
+  <view class="mb2">
+    <search placeholder='请输入资料关键词' bind:input='onsearchinput'></search>
+  </view>
+  <view wx:if="{{filelist.length!==0}}" wx:for="{{filelist}}" wx:key="{{index}}">
+    <filecard id="filecard" fileinfo='{{filelist[index]}}'></filecard>
+  </view>
+  <view wx:if="{{filelist.length==0}}">
+    <nodata></nodata>
+  </view>
+  <view class="fab">
+    <button class="addfile" bind:tap="addfile">上传资料</button>
+  </view>
+</view>

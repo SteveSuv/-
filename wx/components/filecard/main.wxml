@@ -1,0 +1,13 @@
+<view class="filecard" bind:tap="go">
+    <view class="left">
+        <image class="img" src="{{fileimg}}" />
+    </view>
+    <view class="right">
+        <view class="title">{{fileinfo.file_name}}</view>
+        <view class="auinfo">
+            <view class="auname">{{filesize}}</view>
+            <view class="auname">上传于{{fileinfo.showtime}}</view>
+            <view class="auname">浏览量{{fileinfo.file_seenum}}</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,12 @@
+<view class="filecard" bind:tap="rename" >
+    <view class="left">
+        <image class="img" src="{{fileimg}}" />
+    </view>
+    <view class="right">
+        <view class="title">{{fileinfo.name}}</view>
+        <view class="auinfo">
+            <view class="auname">{{filesize}}</view>
+            <view class="aunamecolor">点击修改文件名</view>
+        </view>
+    </view>
+</view>

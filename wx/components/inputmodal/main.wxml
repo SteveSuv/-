@@ -1,0 +1,15 @@
+<view class="modal">
+    <view class="modal-mask" bindtap="hidemodal"></view>
+        <view class="modal-dialog">
+            <view class="modal-title">输入框</view>
+            <view class="modal-content">
+                <view class="modal-input">
+                    <input auto-focus="{{true}}" placeholder-class="input-holder"  bindinput="onInput" class="input" placeholder="{{placeholder}}" value="{{value}}"></input>
+                </view>
+            </view>
+            <view class="modal-footer">
+                <view class="btn-cancel" bindtap="onCancel" data-status="cancel">取消</view>
+                <view class="btn-confirm" bindtap="onConfirm" data-status="confirm">确定</view>
+            </view>
+    </view>
+</view>
